@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:arcmenu="http://schemas.android.com/apk/res/com.guoyonghui.arcmenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.guoyonghui.arcmenu.view.ArcMenu
+        android:id="@+id/arc_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        arcmenu:menu_position="right_bottom"
+        arcmenu:menu_radius="200dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_menu_main_background" >
+
+            <ImageView
+        		android:id="@+id/arc_menu_main_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_menu_main_foreground"
+                android:contentDescription="@string/app_name" />
+            
+        </RelativeLayout>
+        
+        <ImageView
+            android:id="@+id/arc_menu_item_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_item_camera"
+            android:contentDescription="@string/menu_item_camera" />
+        
+        <ImageView
+            android:id="@+id/arc_menu_item_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_item_contact"
+            android:contentDescription="@string/menu_item_contact" />
+        
+        <ImageView
+            android:id="@+id/arc_menu_item_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_item_location"
+            android:contentDescription="@string/menu_item_location" />
+        
+        <ImageView
+            android:id="@+id/arc_menu_item_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_item_message"
+            android:contentDescription="@string/menu_item_message" />
+        
+        <ImageView
+            android:id="@+id/arc_menu_item_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_item_music"
+            android:contentDescription="@string/menu_item_music" />
+        
+    </com.guoyonghui.arcmenu.view.ArcMenu>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+</RelativeLayout>
