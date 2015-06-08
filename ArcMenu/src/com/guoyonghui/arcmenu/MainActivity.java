@@ -48,6 +48,9 @@ public class MainActivity extends FragmentActivity implements onArcMenuItemClick
 		
 		Fragment oldFragment = fm.findFragmentById(R.id.fragment_container);
 		if(oldFragment != null) {
+			if(oldFragment.getClass().equals(newFragment.getClass())) {
+				return;
+			}
 			ft.remove(oldFragment);
 		}
 		

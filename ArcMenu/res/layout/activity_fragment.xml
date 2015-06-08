@@ -8,8 +8,8 @@
         android:id="@+id/arc_menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        arcmenu:menu_position="right_bottom"
-        arcmenu:menu_radius="200dp" >
+        arcmenu:menu_position="left_bottom"
+        arcmenu:menu_radius="150dp" >
 
         <RelativeLayout
             android:layout_width="wrap_content"
