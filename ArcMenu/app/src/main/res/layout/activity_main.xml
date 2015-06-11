@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <com.guoyonghui.arcmenu.com.guoyonghui.arcmenu.view.ArcMenu
+    <com.guoyonghui.arcmenu.view.ArcMenu
         android:id="@+id/arc_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_menu_item_flash"/>
 
-    </com.guoyonghui.arcmenu.com.guoyonghui.arcmenu.view.ArcMenu>
+    </com.guoyonghui.arcmenu.view.ArcMenu>
 
     <FrameLayout
         android:id="@+id/fragment_container"

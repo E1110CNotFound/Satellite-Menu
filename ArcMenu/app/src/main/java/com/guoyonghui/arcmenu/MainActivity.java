@@ -7,7 +7,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 
-import com.guoyonghui.arcmenu.com.guoyonghui.arcmenu.view.ArcMenu;
+import com.guoyonghui.arcmenu.view.ArcMenu;
+
 
 public class MainActivity extends FragmentActivity implements ArcMenu.OnArcMenuItemClickListener {
 
